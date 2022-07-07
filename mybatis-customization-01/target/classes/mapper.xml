@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--相关sql配置文件-->
+<mapper namespace="com.dust.dao.IUserDao">
+    <select id="selectOne" parameterType="com.dust.pojo.User" resultType="com.dust.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+    <select id="selectList" resultType="com.dust.pojo.User">
+        select * from user
+    </select>
+</mapper>
