@@ -20,6 +20,7 @@
     <modules>
         <module>mybatis-customization-01</module>
         <module>mybatis-test-01</module>
+        <module>mybatis-plugin-customization</module>
     </modules>
     <packaging>pom</packaging>
 
